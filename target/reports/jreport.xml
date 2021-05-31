@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0">
+    <testcase classname="Signup feature" name="Signup and compose" time="0">
+        <skipped><![CDATA[When user enters "http://elearningm1.upskills.in/index.php" in step.........undefined
+And clicks on signup button.................................................undefined
+Then signup page should display.............................................undefined
+When user all mandatory values "abcaad","efd","abcsad@gmail.com","xyyz1101123","a12@","a12@" in step.undefined
+And Click on Signup button..................................................undefined
+Then home page will appear and it should display dear "abcaad","efd"........undefined
+And Click on user and clik on inbox.........................................undefined
+And click on compose........................................................undefined
+When user enter "vir","welcome","welcome to testing" in step................undefined
+And Click on send message button............................................undefined
+Then message will be displayed as The message has been sent to "vir"........undefined
+]]></skipped>
+    </testcase>
+</testsuite>

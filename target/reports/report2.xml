@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.272025">
+    <testcase classname="Signup feature" name="Signup and compose" time="23.272025">
+        <failure message="org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//a[text()='Compose']&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-0PSUIKT', ip: '192.168.0.129', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'&#10;Driver info: driver.version: RemoteWebDriver&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at StepDefination.Stepdefination.click_on_compose(Stepdefination.java:104)&#13;&#10;&#9;at ✽.And click on compose(Features.feature:14)&#13;&#10;"><![CDATA[When user enters "http://elearningm1.upskills.in/index.php" in step.........passed
+And clicks on signup button.................................................passed
+Then signup page should display.............................................passed
+When user all mandatory values "abc1","efd","abcsad1@gmail.com","abc12","a12@","a12@" in step.passed
+And Click on Signup button..................................................passed
+Then home page will appear and it should display dear "abc1","efd"..........passed
+And click on compose........................................................failed
+When user enter "vir","welcome","welcome to testing" in step................skipped
+And Click on send message button............................................skipped
+Then message will be displayed as The message has been sent to "vir"........skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//a[text()='Compose']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0PSUIKT', ip: '192.168.0.129', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at StepDefination.Stepdefination.click_on_compose(Stepdefination.java:104)
+	at ✽.And click on compose(Features.feature:14)
+]]></failure>
+    </testcase>
+</testsuite>
